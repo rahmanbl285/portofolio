@@ -1,3 +1,5 @@
+import img from "../assets/meng2.png"
+
 export const Hero = () => {
     return (
         <div className="flex justify-center items-center h-screen">
@@ -25,7 +27,7 @@ export const Hero = () => {
                     </div>
                     <div className="flex items-center justify-center w-full self-end lg:w-1/2 hidden md:block lg:block">
                         <div className="mt-10 lg:mt-9 lg:right-0 lg:object-cover">
-                            <img src="src/assets/meng2.png" alt="Kucing" className="h-auto max-w-full mx-auto object-cover" />
+                            <img src={img} alt="Kucing" className="h-auto max-w-full mx-auto object-cover" />
                         </div>
                     </div>
                 </div>
